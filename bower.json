@@ -1,0 +1,19 @@
+{
+  "name": "selly",
+  "version": "1.0.0",
+  "description": "Selly - Landing page , html/css/js",
+  "keywords": "htmltopsd, html5, css3, foundation zurb",
+  "homepage": "",
+  "author": {
+    "name": "Mentor Kadriu",
+    "email": "mentorkadriu@gmail.com",
+    "url": "http://mentorkadriu.com/"
+  },
+  "devDependencies": {
+    "juice": "~1.0.1",
+    "foundation": "zurb/bower-foundation#~5.5.1",
+    "Slidebars": "~0.10.2",
+    "scrollReveal.js": "~2.3.0",
+    "smooth-scroll": "~5.3.6"
+  }
+}

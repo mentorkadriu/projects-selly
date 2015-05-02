@@ -1,0 +1,252 @@
+doctype
+html
+  head
+    meta(charset='utf-8')
+    meta(http-equiv='X-UA-Compatible', content='IE=edge')
+    title Selly - Free Clean Landing Page
+    meta(name='description', content='')
+    meta(name='viewport', content='width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no')
+    link(href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800', rel='stylesheet', type='text/css')
+    link(rel="stylesheet", href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css")
+    link(rel="stylesheet", href="css/normalize.css")
+    link(rel="stylesheet", href="css/slidebars.css")
+    link(rel="stylesheet", href="css/foundation.css")
+    link(rel="stylesheet", href="css/main.css")
+  body#sb-site
+    // Slide navigation starts here
+    .sb-slidebar.sb-right.sb-style-overlay.sb-static
+      .top-menu
+        .small-logo
+          img(src="images/selly-logo.png", alt="Menu logo")
+        .top-nav
+          nav
+            li
+              a(href="#header", data-scroll).active Lorem dolor
+            li.separator
+            li
+              a(href="#main", data-scroll) Gravida
+            li.separator
+            li
+              a(href="#staff", data-scroll) Ut Sagittis
+            li.separator
+            li
+              a(href="#sign-up", data-scroll) Sign up
+            li.separator
+            li
+              a(href="#footer", data-scroll) Vel Bibendum
+        .contact-us
+          a(href="#")
+            i.fa.fa-mail
+
+    // Slide navigation ends here
+    <!--[if lt IE 8]>
+    p.browsehappy
+      | You are using an <strong>outdated</strong> browser.
+      | Please <a href="http://browsehappy.com/">upgrade your browser</a>
+      | to improve your experience.
+    <![endif]-->
+    // Header starts here
+    .row-full#header
+      .row
+        #small-menu
+          span#sm-hamburger.sb-toggle-right
+        .small-12.medium-12.large-12.columns.text-center
+          #logo(data-sr='enter left')
+            a(href="#")
+              img(src="images/logo.png", alt="Company logo").logo-image
+          h1#header-brand(data-sr='enter left') Nullam viverra consectetuer 
+            span quisque cursus et
+            | ,porttithendrerit nulla nulla quam nunc, accumsan congue.
+          h3#sub-header(data-sr='enter left') Quisque lorem tortor fringilla sed, vestibulum id, eleifend justo vel bibendum sapien massa ac turpis fauer lobortis quis, varius in, purus.
+          #buttons
+            a(href="#", data-sr='enter bottom wait 0.8s').button-tour.button-tour-padding Take a tour
+            a(href="#", data-sr='enter bottom wait 1s').button-video Watch video
+          #drop-down(data-sr='enter bottom wait 1.5s')
+              a(href="#main", data-scroll)
+                img(src="images/scroll-down.png", alt="")#drop-down-image
+    // Header ends here
+    // Main page starts here
+    .row-full#main
+      .row
+        .small-12.medium-6.large-6.columns
+          .app-content(data-sr='enter left')
+            .app-category 
+              span Lorem ipsum
+            .app-title
+              h2 mauris nec malesuada fames
+            .app-platform
+              img(src="images/apple-icon.png", alt="Apple platform")
+              img(src="images/android-icon.png", alt="android platform")
+            .app-description
+              p  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores assumenda labore mollitia, vel animi inventore eum ex nihil enim quia! Maxime eos.
+            .app-scroll-down
+              a(href="#app-second", data-scroll)
+                img(src="images/scroll-down-app.png", alt="")
+        .small-12.medium-6.large-6.columns
+          .app-image.text-center
+            img(src="images/white-phone.png", alt="", data-sr='enter left')
+      .row#app-second
+        .small-12.medium-6.large-6.columns
+          .app-image.text-center
+            img(src="images/white-phone.png", alt="", data-sr='enter left')
+        .small-12.medium-6.large-6.columns
+          .app-content(data-sr='enter left')
+            .app-category 
+              span Gravida
+            .app-title
+              h2 Cum sociis natoque
+            .app-platform
+              img(src="images/apple-icon.png", alt="Apple platform")
+              img(src="images/android-icon.png", alt="android platform")
+            .app-description
+              p  Integer ultrices posuere cubilia Curae, Nulla ipsum dolor lacus, suscipit adipiscing. Cum sociis natoque penatibus et ultrices volutpat. Nullam wisi ultricies.
+            .app-scroll-down
+              a(href="#author", data-scroll)
+                img(src="images/scroll-down-app.png", alt="")
+      .row#author
+        .small-12.medium-12.large-12.columns.text-center(data-sr='enter bottom wait 0.3s')
+          span.author-header Ut Sagittis
+          h3.author-title Quisque cursus et, porttitor risus. Aliquam sem
+        .small-12.medium-12.large-12.columns
+          .row
+            .small-12.medium-6.large-4.columns.text-center(data-sr='enter bottom wait 0.3s')
+              .author-image
+                img(src="images/author-img.png", alt="Jhon Doe")
+              .autho-data
+                h4.author-name Quisque lorem
+                p.author-job Quisque cursus et, porttitor risus. Aliquam hendrerit nulla
+            .small-12.medium-6.large-4.columns.text-center(data-sr='enter bottom wait 0.3s')
+              .author-image
+                img(src="images/author-img.png", alt="Jhon Doe")
+              .autho-data
+                h4.author-name Quisque lorem
+                p.author-job Quisque cursus et, porttitor risus. Aliquam hendrerit nulla 
+            .small-12.medium-6.large-4.columns.text-center(data-sr='enter bottom wait 0.3s')
+              .author-image
+                img(src="images/author-img.png", alt="Jhon Doe")
+              .autho-data
+                h4.author-name Quisque lorem
+                p.author-job Quisque cursus et, porttitor risus. Aliquam hendrerit nulla
+        .small-12.medium-12.large-12.columns.text-center(data-sr='enter bottom wait 0.3s')
+          div.scroll-down
+            a(href="#staff", data-scroll)
+              img(src="images/scroll-down-app.png")
+    // Sign-up starts here
+    .row-full#sign-up
+      .row.text-center
+        .smal-12.columns
+          h4.sign-up-title Sign up for Free and start using Sellys
+          p.sign-up-description Nullam wisi ultricies a, gravida vitae, dapibus risus ante sodales lectus blandit eu, tempor diam pede cursus vitae, ultricies.
+        .small-12.columns
+          form
+            .row
+              .large-12.columns
+                .row.collapse
+                  .form-wrapper
+                    .small-6.medium-7.large-9.columns
+                      input(type="text", placeholder="name@domain.com")
+                    .small-6.medium-5.large-3.columns
+                      input(type="submit", placeholder="Sign-up now").button-tour.btn-input 
+                .row.collapse
+                  .alert-box.error.radius(data-alert)
+                    i.fa.fa-warning.fa-lg 
+                    | Nullam wisi ultricies a, gravida vitae
+                    a(href="").close &times;
+    // Sign-up ends here
+    // Satff starts here
+    .row-full#staff 
+      .row
+        .small-12.columns.text-center
+          span.staff-header Vel Bibendum 
+          h4.staff-title Phasellus fermentum in, dolor facilisis
+        .small-12.columns
+          .row
+            .small-12.medium-6.large-6.columns.text-center
+              .staff-box.text-center(data-sr='enter bottom wait 0.3s')
+                img(src="images/staff-img.jpg", alt="").staff-image
+                h5.staff-name Tamatha Ealy
+                a(href="http://www.twitter.com", target="_blank").staff-twitter @filan
+                p.staff-prof  "Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                 | Officiis iusto, similique perferendis est sit provident illum suscipit 
+                 | assumenda corporis modi, quaerat fugit velit accusantium nulla placeat." 
+            .small-12.medium-6.large-6.columns.text-center
+              .staff-box.text-center(data-sr='enter bottom wait 0.3s')
+                img(src="images/staff-img.jpg", alt="").staff-image
+                h5.staff-name Tamatha Ealy
+                a(href="http://www.twitter.com", target="_blank").staff-twitter @filan
+                p.staff-prof  "Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                 | Officiis iusto, similique perferendis est sit provident illum suscipit 
+                 | assumenda corporis modi, quaerat fugit velit accusantium nulla placeat." 
+            .small-12.medium-6.large-6.columns.text-center
+              .staff-box.text-center(data-sr='enter bottom wait 0.3s')
+                img(src="images/staff-img.jpg", alt="").staff-image
+                h5.staff-name Tamatha Ealy
+                a(href="http://www.twitter.com", target="_blank").staff-twitter @filan
+                p.staff-prof  "Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                 | Officiis iusto, similique perferendis est sit provident illum suscipit 
+                 | assumenda corporis modi, quaerat fugit velit accusantium nulla placeat." 
+            .small-12.medium-6.large-6.columns.text-center
+              .staff-box.text-center(data-sr='enter bottom wait 0.3s')
+                img(src="images/staff-img.jpg", alt="").staff-image
+                h5.staff-name Tamatha Ealy
+                a(href="http://www.twitter.com", target="_blank").staff-twitter @filan
+                p.staff-prof  "Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                 | Officiis iusto, similique perferendis est sit provident illum suscipit 
+                 | assumenda corporis modi, quaerat fugit velit accusantium nulla placeat." 
+    // Satff ends here
+    // Sign-up button starts here
+    .row-full#sign-up-button
+      .row
+        .small-12.columns.text-center
+          h4.button-title rhoncus eu luctus et interdum
+          p.button-description Lorem ipsum dolor sit amet enim. Etiam ullamcorper. Suspendisse a pellentesque dui, non felis. 
+            | Maecenas malesuada elit lectus felis, malesuada ultricies.
+        .small-12.columns.text-center
+          a(href="#").button-tour Sign-up for free 
+    // Sign-up button ends here  
+    // Main page ends here
+    // Footer starts here
+    .row-full#footer
+      .row.collapse
+        .small-12.medium-8.large-8.columns
+          nav#bottom-navigation
+            li
+              a(href="#") About
+            li 
+              a(href="#") Blog
+            li
+              a(href="#") Pricing
+            li
+              a(href="#") Apps
+            li
+              a(href="#") Help
+            li
+              a(href="#") Terms
+            li
+              a(href="#") Privacy
+            li
+              a(href="#") Contact Us
+          // #bottom-naviagtion
+        .small-12.medium-4.large-4.columns
+          p#twitter-share
+            a(href="https://twitter.com/mentorkadriu" class="twitter-follow-button" data-show-count="false" data-size="small") Follow @mentorkadriu
+          //
+            script
+              !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');
+            span.ts-place Selly, Prishtine 2015
+    // Footer ends here 
+    script(src="js/jquery.min.js")
+    script(src="js/scrollReveal.min.js")
+    script(src="js/smooth-scroll.min.js")
+    script(src="js/foundation.min.js")
+    script(src="js/slidebars.min.js")
+    script(src="js/main.js")
+    //- Google Analytics: change UA-XXXXX-X to be your site's ID.
+    //-
+      script
+        (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+        function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+        e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+        e.src='//www.google-analytics.com/analytics.js';
+        r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+        ga('create','UA-XXXXX-X');ga('send','pageview');
