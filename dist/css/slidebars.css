@@ -59,7 +59,8 @@
   right: 0;
   /* Set Slidebar to the right. */ }
 
-html.sb-static .sb-slidebar, .sb-slidebar.sb-static {
+html.sb-static .sb-slidebar,
+.sb-slidebar.sb-static {
   position: fixed;
   /* Makes Slidebars scroll naturally with the site, and unfixes them for Android Browser < 3 and iOS < 5. */ }
 
@@ -134,7 +135,6 @@ html.sb-static .sb-slidebar, .sb-slidebar.sb-static {
  * 004 - Animation
  */
 .sb-slide, #sb-site, .sb-site-container, .sb-slidebar {
-  transition: -webkit-transform 400ms ease;
   transition: transform 400ms ease;
   -webkit-transition-property: -webkit-transform, left, right;
   /* Add left/right for Android < 4.4. */

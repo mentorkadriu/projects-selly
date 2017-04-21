@@ -141,7 +141,7 @@
 =            MAIN PAGE            =
 =================================*/
 #main {
-  background: url('../images/stripe.png') repeat-x; }
+  background: url("../images/stripe.png") repeat-x; }
 
 .app-content {
   position: relative;
@@ -304,7 +304,7 @@
 
 /*==========  STAFF  ==========*/
 #staff {
-  background: url('../images/stripe.png') repeat-x;
+  background: url("../images/stripe.png") repeat-x;
   padding-top: 13.75em; }
   @media only screen and (max-width: 40em) {
     #staff {
@@ -423,7 +423,7 @@
     margin-left: 5px;
     display: block;
     width: 100%; }
-    @media only screen and (min-width:40.063em) {
+    @media only screen and (min-width: 40.063em) {
       #twitter-share span {
         display: inline-block;
         width: auto; } }

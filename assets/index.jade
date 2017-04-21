@@ -8,16 +8,16 @@ html
     meta(name='viewport', content='width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no')
     link(href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800', rel='stylesheet', type='text/css')
     link(rel="stylesheet", href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css")
-    link(rel="stylesheet", href="css/normalize.css")
-    link(rel="stylesheet", href="css/slidebars.css")
-    link(rel="stylesheet", href="css/foundation.css")
-    link(rel="stylesheet", href="css/main.css")
+    link(rel="stylesheet", href="./dist/css/normalize.css")
+    link(rel="stylesheet", href="./dist/css/slidebars.css")
+    link(rel="stylesheet", href="./dist/css/foundation.css")
+    link(rel="stylesheet", href="./dist/css/main.css")
   body#sb-site
     // Slide navigation starts here
     .sb-slidebar.sb-right.sb-style-overlay.sb-static
       .top-menu
         .small-logo
-          img(src="images/selly-logo.png", alt="Menu logo")
+          img(src="./dist/images/selly-logo.png", alt="Menu logo")
         .top-nav
           nav
             li
@@ -53,7 +53,7 @@ html
         .small-12.medium-12.large-12.columns.text-center
           #logo(data-sr='enter left')
             a(href="#")
-              img(src="images/logo.png", alt="Company logo").logo-image
+              img(src="./dist/images/logo.png", alt="Company logo").logo-image
           h1#header-brand(data-sr='enter left') Nullam viverra consectetuer 
             span quisque cursus et
             | ,porttithendrerit nulla nulla quam nunc, accumsan congue.
@@ -63,7 +63,7 @@ html
             a(href="#", data-sr='enter bottom wait 1s').button-video Watch video
           #drop-down(data-sr='enter bottom wait 1.5s')
               a(href="#main", data-scroll)
-                img(src="images/scroll-down.png", alt="")#drop-down-image
+                img(src="./dist/images/scroll-down.png", alt="")#drop-down-image
     // Header ends here
     // Main page starts here
     .row-full#main
@@ -75,20 +75,20 @@ html
             .app-title
               h2 mauris nec malesuada fames
             .app-platform
-              img(src="images/apple-icon.png", alt="Apple platform")
-              img(src="images/android-icon.png", alt="android platform")
+              img(src="./dist/images/apple-icon.png", alt="Apple platform")
+              img(src="./dist/images/android-icon.png", alt="android platform")
             .app-description
               p  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores assumenda labore mollitia, vel animi inventore eum ex nihil enim quia! Maxime eos.
             .app-scroll-down
               a(href="#app-second", data-scroll)
-                img(src="images/scroll-down-app.png", alt="")
+                img(src="./dist/images/scroll-down-app.png", alt="")
         .small-12.medium-6.large-6.columns
           .app-image.text-center
-            img(src="images/white-phone.png", alt="", data-sr='enter left')
+            img(src="./dist/images/white-phone.png", alt="", data-sr='enter left')
       .row#app-second
         .small-12.medium-6.large-6.columns
           .app-image.text-center
-            img(src="images/white-phone.png", alt="", data-sr='enter left')
+            img(src="./dist/images/white-phone.png", alt="", data-sr='enter left')
         .small-12.medium-6.large-6.columns
           .app-content(data-sr='enter left')
             .app-category 
@@ -96,13 +96,13 @@ html
             .app-title
               h2 Cum sociis natoque
             .app-platform
-              img(src="images/apple-icon.png", alt="Apple platform")
-              img(src="images/android-icon.png", alt="android platform")
+              img(src="./dist/images/apple-icon.png", alt="Apple platform")
+              img(src="./dist/images/android-icon.png", alt="android platform")
             .app-description
               p  Integer ultrices posuere cubilia Curae, Nulla ipsum dolor lacus, suscipit adipiscing. Cum sociis natoque penatibus et ultrices volutpat. Nullam wisi ultricies.
             .app-scroll-down
               a(href="#author", data-scroll)
-                img(src="images/scroll-down-app.png", alt="")
+                img(src="./dist/images/scroll-down-app.png", alt="")
       .row#author
         .small-12.medium-12.large-12.columns.text-center(data-sr='enter bottom wait 0.3s')
           span.author-header Ut Sagittis
@@ -111,26 +111,26 @@ html
           .row
             .small-12.medium-6.large-4.columns.text-center(data-sr='enter bottom wait 0.3s')
               .author-image
-                img(src="images/author-img.png", alt="Jhon Doe")
+                img(src="./dist/images/author-img.png", alt="Jhon Doe")
               .autho-data
                 h4.author-name Quisque lorem
                 p.author-job Quisque cursus et, porttitor risus. Aliquam hendrerit nulla
             .small-12.medium-6.large-4.columns.text-center(data-sr='enter bottom wait 0.3s')
               .author-image
-                img(src="images/author-img.png", alt="Jhon Doe")
+                img(src="./dist/images/author-img.png", alt="Jhon Doe")
               .autho-data
                 h4.author-name Quisque lorem
                 p.author-job Quisque cursus et, porttitor risus. Aliquam hendrerit nulla 
             .small-12.medium-6.large-4.columns.text-center(data-sr='enter bottom wait 0.3s')
               .author-image
-                img(src="images/author-img.png", alt="Jhon Doe")
+                img(src="./dist/images/author-img.png", alt="Jhon Doe")
               .autho-data
                 h4.author-name Quisque lorem
                 p.author-job Quisque cursus et, porttitor risus. Aliquam hendrerit nulla
         .small-12.medium-12.large-12.columns.text-center(data-sr='enter bottom wait 0.3s')
           div.scroll-down
             a(href="#staff", data-scroll)
-              img(src="images/scroll-down-app.png")
+              img(src="./dist/images/scroll-down-app.png")
     // Sign-up starts here
     .row-full#sign-up
       .row.text-center
@@ -163,7 +163,7 @@ html
           .row
             .small-12.medium-6.large-6.columns.text-center
               .staff-box.text-center(data-sr='enter bottom wait 0.3s')
-                img(src="images/staff-img.jpg", alt="").staff-image
+                img(src="./dist/images/staff-img.jpg", alt="").staff-image
                 h5.staff-name Tamatha Ealy
                 a(href="http://www.twitter.com", target="_blank").staff-twitter @filan
                 p.staff-prof  "Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
@@ -171,7 +171,7 @@ html
                  | assumenda corporis modi, quaerat fugit velit accusantium nulla placeat." 
             .small-12.medium-6.large-6.columns.text-center
               .staff-box.text-center(data-sr='enter bottom wait 0.3s')
-                img(src="images/staff-img.jpg", alt="").staff-image
+                img(src="./dist/images/staff-img.jpg", alt="").staff-image
                 h5.staff-name Tamatha Ealy
                 a(href="http://www.twitter.com", target="_blank").staff-twitter @filan
                 p.staff-prof  "Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
@@ -179,7 +179,7 @@ html
                  | assumenda corporis modi, quaerat fugit velit accusantium nulla placeat." 
             .small-12.medium-6.large-6.columns.text-center
               .staff-box.text-center(data-sr='enter bottom wait 0.3s')
-                img(src="images/staff-img.jpg", alt="").staff-image
+                img(src="./dist/images/staff-img.jpg", alt="").staff-image
                 h5.staff-name Tamatha Ealy
                 a(href="http://www.twitter.com", target="_blank").staff-twitter @filan
                 p.staff-prof  "Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
@@ -187,7 +187,7 @@ html
                  | assumenda corporis modi, quaerat fugit velit accusantium nulla placeat." 
             .small-12.medium-6.large-6.columns.text-center
               .staff-box.text-center(data-sr='enter bottom wait 0.3s')
-                img(src="images/staff-img.jpg", alt="").staff-image
+                img(src="./dist/images/staff-img.jpg", alt="").staff-image
                 h5.staff-name Tamatha Ealy
                 a(href="http://www.twitter.com", target="_blank").staff-twitter @filan
                 p.staff-prof  "Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
@@ -235,12 +235,12 @@ html
               !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');
             span.ts-place Selly, Prishtine 2015
     // Footer ends here 
-    script(src="js/jquery.min.js")
-    script(src="js/scrollReveal.min.js")
-    script(src="js/smooth-scroll.min.js")
-    script(src="js/foundation.min.js")
-    script(src="js/slidebars.min.js")
-    script(src="js/main.js")
+    script(src="./dist/js/jquery.min.js")
+    script(src="./dist/js/scrollReveal.min.js")
+    script(src="./dist/js/smooth-scroll.min.js")
+    script(src="./dist/js/foundation.min.js")
+    script(src="./dist/js/slidebars.min.js")
+    script(src="./dist/js/main.js")
     //- Google Analytics: change UA-XXXXX-X to be your site's ID.
     //-
       script

@@ -1,5 +1,5 @@
 
-![](https://github.com/mentorkadriu/selly/blob/master/selly-browser.jpg "App landing page")
+![](https://github.com/mentorkadriu/projects-selly/blob/master/selly-browser.jpg "App landing page")
 
 ## Install ##
 
@@ -39,4 +39,4 @@
 
 #### Full image
 
-![](https://github.com/mentorkadriu/selly/blob/master/selly.jpg "Selly - Landing App page")
+![](https://github.com/mentorkadriu/projects-selly/blob/master/selly.jpg "Selly - Landing App page")
